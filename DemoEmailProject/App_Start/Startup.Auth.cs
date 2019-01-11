@@ -60,8 +60,8 @@ namespace DemoEmailProject
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = "727851928125-m8dg0l30oj6btugri21352r8qnrnar3c.apps.googleusercontent.com",
-                ClientSecret = "tk-zI3M-_Gm-aNOa19tjoWgR"
+                ClientId = "Your Client id",
+                ClientSecret = "Your ClientSecret Key "
             });
         }
     }
